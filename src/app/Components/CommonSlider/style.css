@@ -1,0 +1,61 @@
+.iconClass .swiper-wrapper {
+  margin-top: 0px;
+}
+.iconClass .swiper-button-next, .iconClass .swiper-button-prev {
+	position: absolute;
+	top: 60px;
+	background: #FFE0CC;
+	width: 30px;
+	border-radius: 30px;
+	height: 30px;
+	padding: 5px;
+}
+.iconClass .swiper-button-prev {
+	left: 95% !important;
+}
+.iconClass .swiper-button-prev::after, .iconClass .swiper-button-next::after {
+	font-size: 10px !important;
+	color: #FF6600 !important;
+}
+
+/* Mobile Slider  */
+.iconClassMobile .swiper-wrapper {
+  margin-top: 50px;
+}
+.iconClassMobile .swiper-button-next, .iconClassMobile .swiper-button-prev {
+	position: absolute;
+	top: 0px;
+	background: #FFE0CC;
+	width: 30px;
+	border-radius: 30px;
+	height: 30px;
+	padding: 5px;
+}
+.iconClassMobile .swiper-button-prev {
+	left: 93.6% !important;
+}
+.iconClass .swiper-button-prev::after, .iconClass .swiper-button-next::after {
+	font-size: 10px !important;
+	color: #FF6600 !important;
+}
+
+.banner_style .swiper-button-prev::after, .banner_style .swiper-button-next::after {
+	font-size: 30px !important;
+	font-weight: 600 !important;
+	color: #FDC6A1 !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.iconClass .swiper-button-prev {
+		left: 78% !important;
+	}
+	.iconClass .swiper-wrapper {
+		margin-top: 80px;
+	}
+	.iconClassMobile .swiper-button-prev {
+		left: 78% !important;
+	}
+	.iconClassMobile .swiper-wrapper {
+		margin-top: 80px;
+	}
+  }
